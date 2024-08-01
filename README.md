@@ -56,7 +56,7 @@ To start using this project, follow the steps below:
 
 In the `package.json` file, you will find the following scripts:
 
-- `dev`: Starts the server in development mode using `ts-node`.
+- `start:dev`: Starts the server in development mode using `ts-node`.
 - `db`: Starts the db in development mode using `docker compose`.
 - `build`: Compiles the TypeScript code to JavaScript.
 - `start`: Starts the server from the compiled files.
@@ -94,14 +94,13 @@ garage-rent/
 ```
 
 ## Directory and File Descriptions
-```
-• prisma/: Contains Prisma configuration, including the database schema.
-• src/config/: Configuration and initialization of the Prisma client.
-• src/controller/: Contains controllers that handle HTTP requests.
-• src/routes/: Defines application routes.
-• src/models/: Defines TypeScript types for data models.
-• src/services/: Contains business logic and complex operations.
-• src/utils/: Utility functions (may initially be empty).
-• src/app.ts: Sets up and exports the Express application.
-• src/server.ts: Starts the Express server.
-```
+
+- `prisma/`: Contains Prisma configuration, including the database schema.
+- `src/config/`: Configuration and initialization of the Prisma client.
+- `src/controller/`: Contains controllers that handle HTTP requests.
+- `src/routes/`: Defines application routes.
+- `src/models/`: Defines TypeScript types for data models.
+- `src/services/`: Contains business logic and complex operations.
+- `src/app.ts`: Sets up and exports the Express application.
+- `src/server.ts`: Starts the Express server.
+
