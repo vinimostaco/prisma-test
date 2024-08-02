@@ -24,7 +24,7 @@ To start using this project, follow the steps below:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/garage-rent.git
+    git clone https://github.com/https://github.com/vinimostaco/garage-rent.git/garage-rent.git
     cd garage-rent
     ```
 
