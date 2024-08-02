@@ -41,7 +41,7 @@ To start using this project, follow the steps below:
 1. Create a `.env` file in the project root and add the following environment variables:
 
     ```env
-    DATABASE_URL=postgresql://user:password@localhost:6000/mydatabase
+    DATABASE_URL="postgresql://admin:admin123@localhost:6000/prisma-teste?schema=public"
     PORT=3000
     ```
 
